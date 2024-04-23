@@ -1,0 +1,26 @@
+
+@font-face {
+  font-family: 'Px-Grotesk';
+  src: url('./public/fonts/Px-Grotesk-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Px-Grotesk';
+  src: url('fonts/Px-Grotesk-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Px-Grotesk';
+  src: url('fonts/Px-Grotesk-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+::selection {
+  color: rgb(0, 0, 0); /* Text color when selected */
+  background-color: #00f7be; /* Background color when selected */
+}
