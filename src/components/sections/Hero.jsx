@@ -18,8 +18,6 @@ export const Hero = () => {
     i18n.changeLanguage(i18n.language === 'en' ? 'es' : 'en');
   };
 
-  //   Lambda - ECS - Fargate - S3 - SQS - SNS - Step Functions - CloudWatch - NodeJS - NestJS - TypeScript - React - Microservicios - RestAPI - GraphQL - Docker - Terraform- Git - Github  - New Relic
-
   const skillset = [
     {
       name: 'NodeJS',
@@ -144,7 +142,7 @@ export const Hero = () => {
           doloremque! Ipsum reprehenderit incidunt itaque vitae praesentium
           ipsam aperiam delectus similique obcaecati.
         </Heading>
-        <Box>
+        <Box mt={'8rem'}>
           <Box
             display={'flex'}
             flexWrap={'wrap'}
@@ -157,6 +155,7 @@ export const Hero = () => {
               <Badge
                 key={index}
                 variant={'solid'}
+                fontSize='1rem' 
                 colorScheme={
                   skill.type === 'lang'
                     ? 'blue'

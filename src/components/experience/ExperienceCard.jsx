@@ -13,7 +13,7 @@ export const ExperienceCard = ({ experience = {} }) => {
         }
       </Box>
       <Box w={'80%'}>
-        <Heading size={'md'} style={{color: '#00f7be'}}>{position}</Heading>
+        <Heading size={'md'} style={{color: useColorModeValue('#00c899', '#00f7be')}}>{position}</Heading>
         <Heading size={'sm'} mt={'0.3rem'} mb={'1rem'} fontWeight={400}>{company}</Heading>
         <p>
           {description}
