@@ -9,19 +9,19 @@ export const Experience = () => {
       position: 'Backend Software Developer',
       company: 'Cencosud',
       dates: '02/2023 - Actualidad',
-      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui placeat quisquam quaerat? Voluptate hic sed libero id omnis quas! Itaque consectetur similique unde, error inventore explicabo esse? Commodi, ex nostrum.'
+      description: 'Trabajo junto al equipo de Payments brindando soporte y desarrollando nuevas funcionalidades para diversos productos internos, tales como pasarelas de pago, gestores de reembolso, control de contabilidad y demás. Utilizando principalmente NodeJS, Amazon Web Services y arquitectura de microservicios.'
     },
     {
       position: 'Salesforce Developer',
       company: 'Tata Consultancy Services',
       dates: '02/2022 - 02/2023',
-      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui placeat quisquam quaerat? Voluptate hic sed libero id omnis quas! Itaque consectetur similique unde, error inventore explicabo esse? Commodi, ex nostrum.'
+      description: 'Desarrollé funcionalidades a medida en Salesforce para clientes externos de la compañía, así como también brindé soporte a productos existentes. Trabajé utilizando principalmente Apex y Lightning Web Components.'
     },
     {
       position: 'Operador IT',
       company: 'OSE (DCA)',
       dates: '12/2020 - 01/2022',
-      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui placeat quisquam quaerat? Voluptate hic sed libero id omnis quas! Itaque consectetur similique unde, error inventore explicabo esse? Commodi, ex nostrum.'
+      description: 'Realizaba el monitoreo y ejecución de distintos procesos batch encargados de generar la facturación de los servicios de OSE para su posterior impresión'
     },
   ]
 

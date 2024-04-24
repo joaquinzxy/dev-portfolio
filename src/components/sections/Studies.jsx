@@ -10,21 +10,18 @@ export const Studies = () => {
       company: 'ORT University',
       dates: '2023 - Now',
       status: 'Estimating Graduation: 2026',
-      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui placeat quisquam quaerat? Voluptate hic sed libero id omnis quas! Itaque consectetur similique unde, error inventore explicabo esse? Commodi, ex nostrum.'
     },
     {
       position: 'Certified Tech Developer',
       company: 'Digital House',
       dates: '2022 - 2023',
       status: 'Not Completed',
-      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui placeat quisquam quaerat? Voluptate hic sed libero id omnis quas! Itaque consectetur similique unde, error inventore explicabo esse? Commodi, ex nostrum.'
     },
     {
       position: 'IT Technician',
       company: 'ESI - Buceo',
       status: 'Completed',
       dates: '2014 - 2018',
-      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui placeat quisquam quaerat? Voluptate hic sed libero id omnis quas! Itaque consectetur similique unde, error inventore explicabo esse? Commodi, ex nostrum.'
     },
   ]
 

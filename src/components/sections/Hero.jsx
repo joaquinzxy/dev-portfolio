@@ -137,10 +137,10 @@ export const Hero = () => {
           Sofware Developer
         </Heading>
         <Heading as="p" size={'md'} fontWeight={'300'}>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. A, molestiae
-          molestias! Voluptas dolorum iure molestias fuga beatae debitis
-          doloremque! Ipsum reprehenderit incidunt itaque vitae praesentium
-          ipsam aperiam delectus similique obcaecati.
+          Apasionado por el desarrollo y la tecnología 👨‍💻
+        </Heading>
+        <Heading as="p" size={'md'} fontWeight={'300'}>
+        Me encanta resolver problemas y desarrollar soluciones que no solo cumplan con su propósito, sino que también lo hagan de la manera más óptima ✨
         </Heading>
         <Box mt={'8rem'}>
           <Box
