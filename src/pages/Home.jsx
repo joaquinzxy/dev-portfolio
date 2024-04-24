@@ -7,7 +7,7 @@ import { Studies } from '../components/sections/Studies';
 export const Home = () => {
 
   return (
-    <Box paddingLeft={'8rem'} paddingRight={'8rem'} display={'flex'} flexDir={'column'} gap={'5rem'}>
+    <Box paddingLeft={'10%'} paddingRight={'10%'} display={'flex'} flexDir={'column'} gap={'5rem'}>
       {/* <Header /> */}
       <Hero />
       <About />

@@ -21,9 +21,9 @@ export const Hero = () => {
   const skillset = t('hero.skillset', { returnObjects: true });
 
   return (
-    <Box h={'90vh'}>
+    <Box minH={'90vh'}>
       <Box
-        h={'10vh'}
+        minH={'10vh'}
         p={'1rem'}
         display={'flex'}
         justifyContent={'flex-end'}
@@ -41,7 +41,7 @@ export const Hero = () => {
         </Button>
       </Box>
       <Box
-        h={'80vh'}
+        minH={'80vh'}
         display={'flex'}
         justifyContent={'center'}
         alignItems={'center'}
