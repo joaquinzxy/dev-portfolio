@@ -1,7 +1,145 @@
 {
   "hero": {
-    "title": "Hello, I'm a Joaquin De Sosa",
+    "title": "Hello there, I'm Joaquin De Sosa",
     "subtitle": "Software Developer",
-    "intro": "I'm a web developer with a passion for creating beautiful, responsive websites. I'm currently looking for a new role in web development."
+    "intro_1": "Passionate about development and technology 👨‍💻",
+    "intro_2": "I love solving problems and developing solutions that not only fulfill their purpose, but also do so in the most optimal way ✨",
+    "skillset": [
+      {
+        "name": "NodeJS",
+        "type": "lang"
+      },
+      {
+        "name": "NestJS",
+        "type": "lang"
+      },
+      {
+        "name": "TypeScript",
+        "type": "lang"
+      },
+      {
+        "name": "React",
+        "type": "lang"
+      },
+      {
+        "name": "Microservices",
+        "type": "integrations"
+      },
+      {
+        "name": "RestAPI",
+        "type": "integrations"
+      },
+      {
+        "name": "GraphQL",
+        "type": "integrations"
+      },
+      {
+        "name": "Docker",
+        "type": "devops"
+      },
+      {
+        "name": "Terraform",
+        "type": "devops"
+      },
+      {
+        "name": "Git",
+        "type": "devops"
+      },
+      {
+        "name": "Github",
+        "type": "devops"
+      },
+      {
+        "name": "New Relic",
+        "type": "devops"
+      },
+      {
+        "name": "Lambda",
+        "type": "aws"
+      },
+      {
+        "name": "ECS",
+        "type": "aws"
+      },
+      {
+        "name": "Fargate",
+        "type": "aws"
+      },
+      {
+        "name": "S3",
+        "type": "aws"
+      },
+      {
+        "name": "SQS",
+        "type": "aws"
+      },
+      {
+        "name": "SNS",
+        "type": "aws"
+      },
+      {
+        "name": "Step Functions",
+        "type": "aws"
+      },
+      {
+        "name": "CloudWatch",
+        "type": "aws"
+      }
+    ]
+  },
+  "about": {
+    "section_title": "🙋‍♂️ About me",
+    "paragraph_1": "From Uruguay and with 25 years old, I'm a software developer who enjoys traveling and getting to know different points of view. I have a nerdy side that stays up more than it should on some occasions, when it finds tools that serve for solutions that I don't have yet; but also the social side that enjoys going to the office to share with peers and grow continuously, helping each other.",
+    "paragraph_2": "I think the beauty of this sector is that solutions and processes can be refined as much as one is curious (or until the sprint ends), and that's something I love: the possibility of continuous improvement and learning while offering solutions that can help one person or thousands.",
+    "paragraph_3": "I find that it is an area where it is important to be demanded in order to grow, but it is also essential to be surrounded by a good team that can guide us to maximize learning and minimize production failures. These two things I mentioned, demand and good accompaniment, today are things that seem to me to be non-negotiable in any work group, in addition to giving us a place to express our ideas and contribute both technically and humanly to the team, I think it is the recipe for not only a good work environment but also to generate high-value products.",
+    "paragraph_4": "I am currently studying at the ORT University since I am looking to develop my logical and technical thinking. Sometimes with the tight sprint times, it is difficult to dedicate time to the programming bases and this seems fundamental to me, since although I am a fan of delivering solutions quickly, I also think it is essential that they are robust, scalable and maintainable."
+  },
+  "experience": {
+    "section_title": "🖥️ IT Experience",
+    "jobs": [{
+      "title": "Backend Software Developer",
+      "company": "Cencosud",
+      "date": "02/2023 - Now",
+      "description": "I work with the Payments team providing support and developing new functionalities for various internal products, such as payment gateways, refund managers, accounting control and others. Using mainly NodeJS, Amazon Web Services and microservices architecture."
+    },
+    {
+      "title": "Salesforce Developer",
+      "company": "Tata Consultancy Services",
+      "date": "02/2022 - 02/2023",
+      "description": "I developed custom functionalities in Salesforce for external clients of the company, as well as provided support for existing products. I worked mainly using Apex and Lightning Web Components."
+    },
+    {
+      "title": "IT Operator",
+      "company": "OSE (DCA)",
+      "date": "12/2020 - 01/2022",
+      "description": "I monitored and executed different batch processes responsible for generating the billing of OSE services for subsequent printing."
+    }]
+  },
+  "studies": {
+    "section_title": "📚 Studies",
+    "items": [
+      {
+        "title": "IT Analyst",
+        "company": "ORT University",
+        "date": "2023 - Now",
+        "status": "Estimating Graduation: 2026"
+      },
+      {
+        "title": "Certified Tech Developer",
+        "company": "Digital House",
+        "date": "2022 - 2023",
+        "status": "Not Completed"
+      },
+      {
+        "title": "IT Technician",
+        "company": "ESI - Buceo",
+        "status": "Completed",
+        "date": "2014 - 2018"
+      }
+    ]
+  },
+  "contact": {
+    "section_title": "📬 Let's get in touch",
+    "section_intro": "If you have a job offer, an idea for a project or just want to chat, contact me through LinkedIn and I will get back to you as soon as possible."
   }
 }

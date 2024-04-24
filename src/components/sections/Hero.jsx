@@ -18,88 +18,7 @@ export const Hero = () => {
     i18n.changeLanguage(i18n.language === 'en' ? 'es' : 'en');
   };
 
-  const skillset = [
-    {
-      name: 'NodeJS',
-      type: 'lang',
-    },
-    {
-      name: 'NestJS',
-      type: 'lang',
-    },
-    {
-      name: 'TypeScript',
-      type: 'lang',
-    },
-    {
-      name: 'React',
-      type: 'lang',
-    },
-    {
-      name: 'Microservicios',
-      type: 'integrations',
-    },
-    {
-      name: 'RestAPI',
-      type: 'integrations',
-    },
-    {
-      name: 'GraphQL',
-      type: 'integrations',
-    },
-    {
-      name: 'Docker',
-      type: 'devops',
-    },
-    {
-      name: 'Terraform',
-      type: 'devops',
-    },
-    {
-      name: 'Git',
-      type: 'devops',
-    },
-    {
-      name: 'Github',
-      type: 'devops',
-    },
-    {
-      name: 'New Relic',
-      type: 'devops',
-    },
-    {
-      name: 'Lambda',
-      type: 'aws',
-    },
-    {
-      name: 'ECS',
-      type: 'aws',
-    },
-    {
-      name: 'Fargate',
-      type: 'aws',
-    },
-    {
-      name: 'S3',
-      type: 'aws',
-    },
-    {
-      name: 'SQS',
-      type: 'aws',
-    },
-    {
-      name: 'SNS',
-      type: 'aws',
-    },
-    {
-      name: 'Step Functions',
-      type: 'aws',
-    },
-    {
-      name: 'CloudWatch',
-      type: 'aws',
-    },
-  ];
+  const skillset = t('hero.skillset', { returnObjects: true });
 
   return (
     <Box h={'90vh'}>
@@ -134,13 +53,13 @@ export const Hero = () => {
           {t('hero.title')} 👋
         </Heading>
         <Heading as="h3" size={'xl'}>
-          Sofware Developer
+          {t('hero.subtitle')}
         </Heading>
         <Heading as="p" size={'md'} fontWeight={'300'}>
-          Apasionado por el desarrollo y la tecnología 👨‍💻
+          {t('hero.intro_1')}
         </Heading>
         <Heading as="p" size={'md'} fontWeight={'300'}>
-        Me encanta resolver problemas y desarrollar soluciones que no solo cumplan con su propósito, sino que también lo hagan de la manera más óptima ✨
+          {t('hero.intro_2')}
         </Heading>
         <Box mt={'8rem'}>
           <Box
